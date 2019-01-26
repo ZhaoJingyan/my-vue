@@ -6,10 +6,14 @@ v0.0.1, 2019-01-26
 == 开发计划 ==
 
 - 构建项目(1h)
-    * [ ] 通过vue/cli构建项目，并使用vuex和vue-route
-    * [ ] 添加iview库
-    * [ ] 在github上创建项目
+    * [x] 通过vue/cli构建项目，并使用vuex和vue-route
+    * [x] 添加iview库
+    * [x] 在github上创建项目
 - 构建框架
+    * [ ] 创建Framework组件(30m)
+    * [ ] 创建MyMenu组件(30m)
+    * [ ] 创建Header组件(30m)
+    * [ ] 创建Footer组件(30m)
 - 构建文件上传组件
 - 构建数据展示页面
 - 构建文件下载页面
@@ -23,3 +27,5 @@ vue create my-vue
 npm install iview --save
 npm install babel-plugin-import --save-dev
 ----
+
+创建github项目
