@@ -1,0 +1,25 @@
+= My-vue =
+Zhao Jinyan <949474952@qq.com>
+v0.0.1, 2019-01-26
+:toc:
+
+== 开发计划 ==
+
+- 构建项目(1h)
+    * [ ] 通过vue/cli构建项目，并使用vuex和vue-route
+    * [ ] 添加iview库
+    * [ ] 在github上创建项目
+- 构建框架
+- 构建文件上传组件
+- 构建数据展示页面
+- 构建文件下载页面
+
+== 构建项目 ==
+
+控制台输入:
+[source,shell]
+----
+vue create my-vue
+npm install iview --save
+npm install babel-plugin-import --save-dev
+----
