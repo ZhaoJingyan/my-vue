@@ -10,7 +10,7 @@ v0.0.1, 2019-01-26
     * [x] 添加iview库
     * [x] 在github上创建项目
 - 构建框架
-    * [ ] 创建Framework组件(30m)
+    * [x] 创建Framework组件(30m)
     * [ ] 创建MyMenu组件(30m)
     * [ ] 创建Header组件(30m)
     * [ ] 创建Footer组件(30m)
