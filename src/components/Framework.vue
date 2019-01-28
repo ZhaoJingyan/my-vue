@@ -16,19 +16,21 @@
         </Layout>
       </Content>
     </Layout>
-    <Footer>2011-2016 &copy; TalkingData</Footer>
+    <AsyncFooter></AsyncFooter>
   </Layout>
 </template>
 
 <script>
 import AsyncMenu from "@/components/AsyncMenu.vue";
+import AsyncFooter from "@/components/AsyncFooter.vue";
 /*
  框架控件，负责总体布局
 */
 export default {
   name: "Framework",
   components: {
-    AsyncMenu
+    AsyncMenu,
+    AsyncFooter
   }
 };
 </script>
