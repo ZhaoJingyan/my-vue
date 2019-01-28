@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "iview": "^3.2.2",
     "npm": "^6.7.0",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
@@ -26,5 +27,20 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "description": "= My-vue =\r Zhao Jinyan <949474952@qq.com>\r v0.0.1, 2019-01-26\r :toc:",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoJingyan/my-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhaoJingyan/my-vue/issues"
+  },
+  "homepage": "https://github.com/ZhaoJingyan/my-vue#readme"
 }
