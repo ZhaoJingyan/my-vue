@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Header>Header</Header>
+    <DynamicHeader></DynamicHeader>
     <Layout :style="{padding: '0 50px'}">
       <Breadcrumb :style="{margin: '16px 0'}">
         <BreadcrumbItem>Home</BreadcrumbItem>
@@ -23,6 +23,7 @@
 <script>
 import AsyncMenu from "@/components/AsyncMenu.vue";
 import AsyncFooter from "@/components/AsyncFooter.vue";
+import DynamicHeader from "@/components/DynamicHeader.vue";
 /*
  框架控件，负责总体布局
 */
@@ -30,7 +31,8 @@ export default {
   name: "Framework",
   components: {
     AsyncMenu,
-    AsyncFooter
+    AsyncFooter,
+    DynamicHeader
   }
 };
 </script>
