@@ -12,7 +12,9 @@
           <Sider hide-trigger :style="{background: '#fff'}">
             <AsyncMenu></AsyncMenu>
           </Sider>
-          <Content :style="{padding: '24px', minHeight: '280px', background: '#fff'}">Content</Content>
+          <Content :style="{padding: '24px', minHeight: '280px', background: '#fff'}">
+            <router-view></router-view>
+          </Content>
         </Layout>
       </Content>
     </Layout>
