@@ -1,17 +1,15 @@
 <template>
-    <Footer class="layout-footer-center">2011-2016 &copy; TalkingData</Footer>
+  <Footer class="layout-footer-center">2011-2016 &copy; TalkingData</Footer>
 </template>
 
 <script>
 export default {
-    name: "AsyncFooter"
+  name: "AsyncFooter"
 };
 </script>
 
 <style scoped>
 .layout-footer-center {
-    text-align: center;
+  text-align: center;
 }
 </style>
-
-

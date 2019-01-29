@@ -1,10 +1,9 @@
 <template>
-    <h1>{{title}}</h1>
+  <h1>{{ title }}</h1>
 </template>
 
 <script>
 export default {
-    name: "Title"
-}
+  name: "Title"
+};
 </script>
-
